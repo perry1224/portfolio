@@ -18,6 +18,12 @@ font-family: 'Readex Pro', sans-serif !important;
   font-family: 'Readex Pro', sans-serif;
 }
 
+p {
+  font-family: 'Readex Pro', sans-serif;
+  font-size: 40px;
+  
+}
+
 h2 .hero_title {
   font-size: 4.5rem;
   font-family: 'Readex Pro', sans-serif;
@@ -29,7 +35,7 @@ h2 .hero_title {
 
 .hero_title,
 .hero_desc {
-  font-family: 'Readex Pro', sans-serif;
+  font-family: 'Readex Pro', sans-serif 
 }
 
 .web {
