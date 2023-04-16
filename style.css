@@ -91,7 +91,7 @@ h2 .hero_title {
   font-size: inherit;
   font-weight:inherit;}
 
-.html {
+/* .html {
   transition: transform .2s 
 }
 
@@ -217,7 +217,7 @@ h2 .hero_title {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-gap: 15px 30px;
-}
+} */
   /* social media icons styling */
 .social-icons {
   font-size: 36px;
