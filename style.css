@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap');
 
-body {
-
-font-family: 'Readex Pro', sans-serif !important;
+html,body
+{
+    overflow-x:hidden;
+    font-family: 'Readex Pro', sans-serif !important;
 }
+
 /* hero background image */
 .bgimage {
   height:100vh;
