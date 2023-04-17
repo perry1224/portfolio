@@ -320,6 +320,6 @@ html,body
 
 @media all and (max-width: 500px) {
   #tool_thumbnails {
-      grid-template-columns: 1fr;
+      grid-template-columns: repeat(3, 1fr);
   }
 }
