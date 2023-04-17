@@ -24,7 +24,11 @@ font-family: 'Readex Pro', sans-serif !important;
   
 }
 
-h2 .hero_title {
+ .text-center {
+  font-family: 'Readex Pro', sans-serif;
+}
+
+ .hero_title {
   font-size: 4.5rem;
   font-family: 'Readex Pro', sans-serif;
 }
@@ -140,13 +144,13 @@ h2 .hero_title {
 }
 
 .dark-mode {
-  background-color: black;
-  color: white;
+  background-color: #00034c;
+  color: lightyellow
 }
 
 .dark-mode .card-body {
-  background-color: black;
-  color: white;
+  background-color: #00034c;
+  color: lightyellow
 }
 
 .button {
