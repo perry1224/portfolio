@@ -299,7 +299,8 @@ font-family: 'Readex Pro', sans-serif !important;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-gap: 15px 30px;
-  /* margin-left:60px; */
+  margin-left:5%;
+  justify-content: center;
 }
 
 @media all and (max-width: 750px) {
