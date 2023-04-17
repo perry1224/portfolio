@@ -150,7 +150,7 @@ h2 .hero_title {
 }
 
 .button {
-  border-radius: 60%; 
+  border-radius: 50%; 
   background-color: lightyellow; 
   border: none; 
   box-shadow: 0px 0px 20px #fff;
@@ -166,4 +166,3 @@ h2 .hero_title {
   outline: none; /* remove default focus outline */
   box-shadow: 0px 0px 50px #fff; /* add a larger glow effect on focus */
 }
-
