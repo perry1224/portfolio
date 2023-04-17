@@ -144,12 +144,12 @@ font-family: 'Readex Pro', sans-serif !important;
 }
 
 .dark-mode {
-  background-color: #00034c;
+  background-color: #010234;
   color: lightyellow
 }
 
 .dark-mode .card-body {
-  background-color: #00034c;
+  background-color: #010234;
   color: lightyellow
 }
 
