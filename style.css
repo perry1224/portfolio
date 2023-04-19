@@ -323,3 +323,17 @@ html,body
       grid-template-columns: repeat(3, 1fr);
   }
 }
+
+@media only screen and (max-width: 480px) {
+  input,
+  textarea {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    margin-bottom: 10px;
+  }
+  label[for="name"] {
+    margin-top: 20px;
+  }
+}
