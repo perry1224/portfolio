@@ -333,7 +333,7 @@ html,body
   label {
     margin-bottom: 10px;
   }
-  label[for="name"] {
-    margin-top: 10px;
+  form {
+    padding-top: 25px;
   }
 }
