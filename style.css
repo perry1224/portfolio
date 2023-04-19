@@ -157,7 +157,7 @@ html,body
 }
 
 .button {
-  border-radius: 50%; 
+  border-radius: 5%; 
   background-color: lightyellow; 
   border: none; 
   box-shadow: 0px 0px 20px #fff;
