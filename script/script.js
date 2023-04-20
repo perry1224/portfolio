@@ -21,3 +21,14 @@ function myFunction() {
   var element = document.body;
   element.classList.toggle("dark-mode");
 }
+
+var messageInput = document.getElementById("message");
+
+messageInput.addEventListener("input", function(event) {
+  var inputValue = event.target.value.trim();
+  if (inputValue.length < 2 || /^\s/.test(inputValue)) {
+    messageInput.setCustomValidity("At least say hi.");
+  } else {
+    messageInput.setCustomValidity("");
+  }
+});

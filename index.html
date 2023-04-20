@@ -22,6 +22,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
   <!-- font awesome -->
   <script src="https://kit.fontawesome.com/03b65de97e.js" crossorigin="anonymous"></script>
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 </head>
 
@@ -304,15 +305,17 @@
               <!-- form fields -->
               <form action="https://formspree.io/f/mnqrngvr" method="post">
                 <label for="name"><i class='fas fa-user-alt' style='font-size:20px'></i> Name: </label><br>
-                  <input id="name"  name="Name" class="form-control form-control-md" style="font-style:italic" placeholder="Your Name" required>   
+                  <input id="name" pattern=".*\S+.*" title="Please tell me your name" name="Name" class="form-control form-control-md" style="font-style:italic" placeholder="Your Name" required>   
                   <label for="name"><i class="fa-solid fa-building" style='font-size:20px; margin-top: 10px;'></i> Company Name:</label><br>
                   <input id="company" name="Company" class="form-control form-control-md" style="font-style:italic" placeholder="Your Company">
                   <label for="name"><i class='fas fa-envelope-open' style='font-size:20px; margin-top: 10px;'></i> E-mail: </label><br>
-                  <input id="email" name="E-mail" type="email" class="form-control" style="font-style:italic" placeholder="Your e-mail" required>
+                  <input id="email" name="E-mail" type="email" class="form-control"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" style="font-style:italic" placeholder="Your e-mail" required>
                   <div class="mb-3 mt-3">
                     <label for="name"><i class='fas fa-comment' style='font-size:20px'></i> Message: </label><br>
-                      <textarea id="message" name="Message" class="form-control" rows="5" style="font-style:italic" placeholder="What would you like to say?" required></textarea>
+                      <textarea id="message"  name="Message"  class="form-control" rows="5" style="font-style:italic" placeholder="What would you like to say?" required ></textarea>
                   </div>
+                  <br>      <div class="g-recaptcha" data-sitekey="6Lc9YJ8lAAAAAJZ-1g5NonKI6Wdb2gHQBhcogMk_" data-callback="enableBtn"></div>
+
                   <input type="submit" class="btn btn-success mt-3">
               </form>
               
