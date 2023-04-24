@@ -344,13 +344,15 @@ html,body
    .nav-link {
     background: linear-gradient(#734dff, #734dff) right / 0% 100% no-repeat;
     transition: background-size 300ms !important;
-    width: 18%;
+    width: auto;
+    display: inline-block;
   
   }
   
   .nav-link:hover {
     background: linear-gradient(#734dff, #734dff) left / 100% 100% no-repeat !important;
-    width: 18%;
+    width: auto;
+    display: inline-block;
   }
 }
 
