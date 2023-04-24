@@ -89,13 +89,12 @@ html,body
 
 .nav-link {
   background: linear-gradient(#734dff, #734dff) right / 0% 100% no-repeat;
-  border-radius: 10%;
   transition: background-size 300ms !important;
+
 }
 
 .nav-link:hover {
   background: linear-gradient(#734dff, #734dff) left / 100% 100% no-repeat !important;
-  border-radius: 10%;
 
 }
 
@@ -341,6 +340,18 @@ html,body
     text-align: center;
     margin-left: 30px;
    }
+
+   .nav-link {
+    background: linear-gradient(#734dff, #734dff) right / 0% 100% no-repeat;
+    transition: background-size 300ms !important;
+    width: 18%;
+  
+  }
+  
+  .nav-link:hover {
+    background: linear-gradient(#734dff, #734dff) left / 100% 100% no-repeat !important;
+    width: 18%;
+  }
 }
 
 @media only screen and (max-width: 480px) {
