@@ -325,6 +325,11 @@ html,body
   cursor: pointer;
 }
 
+.scroll-up:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
 .up-arrow {
   width: 3rem;
   height: 3rem;
