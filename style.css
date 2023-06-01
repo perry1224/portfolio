@@ -318,6 +318,13 @@ html,body
   justify-content: center;
 }
 
+.scroll-up {
+  position: fixed;
+  right: 0.5%;
+  bottom: 3%;
+  cursor: pointer;
+}
+
 @media all and (max-width: 750px) {
 #tool_thumbnails {
   grid-template-columns: repeat(3, 1fr);
