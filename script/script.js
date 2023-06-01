@@ -36,3 +36,14 @@ messageInput.addEventListener("input", function(event) {
 function enableBtn(){
   document.getElementById("submit0").disabled = false;
 }
+
+// scroll to top functionality
+const scrollUp = document.querySelector("#scroll-up");
+
+scrollUp.addEventListener("click", () => {
+  window.scrollTo({
+    top: 0,
+    left: 0,
+    behavior: "smooth",
+  });
+});
