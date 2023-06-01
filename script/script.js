@@ -38,12 +38,24 @@ function enableBtn(){
 }
 
 // scroll to top functionality
-const scrollUp = document.querySelector("#scroll-up");
+const scrollUpIcon = document.querySelector(".scroll-up");
+let isScrolling = false;
 
-scrollUp.addEventListener("click", () => {
+scrollUpIcon.addEventListener("click", () => {
   window.scrollTo({
     top: 0,
     left: 0,
     behavior: "smooth",
   });
 });
+
+window.addEventListener("scroll", () => {
+  if (!isScrolling && window.scrollY > 0) {
+    isScrolling = true;
+    scrollUpIcon.classList.add("show");
+  } else if (isScrolling && window.scrollY === 0) {
+    isScrolling = false;
+    scrollUpIcon.classList.remove("show");
+  }
+});
+

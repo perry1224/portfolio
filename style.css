@@ -325,6 +325,19 @@ html,body
   cursor: pointer;
 }
 
+#scroll-up {
+  position: fixed;
+  bottom: -50px;
+  right: 20px;
+  transition: bottom 0.3s;
+  cursor: pointer;
+}
+
+#scroll-up.show {
+  bottom: 20px;
+}
+
+
 .scroll-up:hover {
   cursor: pointer;
   opacity: 0.8;
